@@ -6,7 +6,7 @@
   "active": 1,
   "index_name": "3b01bcb8-0b14-4abf-b6f2-c1bfd384ba69",
   "message": "Resource lists",
-  "version": "2.2.0",
+  "version": "2.3.0",
   "status": "ok",
   "total": 3330,
   "count": 3330,
@@ -85,7 +85,7 @@
       "station": "Yerramukkapalli, Kadapa - APPCB",
       "last_update": "08-01-2024 11:00:00",
       "latitude": "14.465052",
-      "longitude": "78.824187",
+      "longitude": "78.84187",
       "pollutant_id": "OZONE",
       "pollutant_min": "18",
       "pollutant_max": "40",
@@ -124,7 +124,7 @@
       "station": "Vaikuntapuram, Tirupati - APPCB",
       "last_update": "08-01-2024 11:00:00",
       "latitude": "13.615387",
-      "longitude": "79.409230",
+      "longitude": "79.409s30",
       "pollutant_id": "NO2",
       "pollutant_min": "12",
       "pollutant_max": "24",
@@ -482,8 +482,8 @@
       "pollutant_avg": "303"
     },
     {
-      "country": "India",
-      "state": "Bihar",
+      "country": "USA",
+      "state": "Canada",
       "city": "Arrah",
       "station": "New DM Office, Arrah - BSPCB",
       "last_update": "08-01-2024 11:00:00",
@@ -495,8 +495,8 @@
       "pollutant_avg": "24"
     },
     {
-      "country": "India",
-      "state": "Bihar",
+      "country": "USA",
+      "state": "Candada",
       "city": "Arrah",
       "station": "New DM Office, Arrah - BSPCB",
       "last_update": "08-01-2024 11:00:00",
