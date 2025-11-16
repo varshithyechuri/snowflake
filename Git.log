@@ -1,0 +1,245 @@
+2025-11-16 08:25:18.745 [info] [main] Log level: Info
+2025-11-16 08:25:18.745 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2025-11-16 08:25:18.745 [info] [main] Using git "2.51.2.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2025-11-16 08:25:18.745 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-16 08:25:18.745 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-16 08:36:03.896 [info] > git rev-parse --show-toplevel [85ms]
+2025-11-16 08:36:03.896 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-16 08:38:10.939 [info] > git rev-parse --show-toplevel [85ms]
+2025-11-16 08:38:10.940 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-16 08:38:29.584 [info] > git rev-parse --show-toplevel [99ms]
+2025-11-16 08:38:29.584 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-16 08:38:50.458 [info] > git rev-parse --show-toplevel [99ms]
+2025-11-16 08:38:50.458 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-16 08:39:03.552 [info] > git rev-parse --show-toplevel [83ms]
+2025-11-16 08:39:03.552 [info] fatal: not a git repository (or any of the parent directories): .git
+2025-11-16 08:40:17.707 [info] > git clone https://github.com/varshithyechuri/snowflake.git c:\Users\yvars\Downloads\snowflake --progress [2481ms]
+2025-11-16 08:40:17.707 [info] Cloning into 'c:\Users\yvars\Downloads\snowflake'...
+remote: Enumerating objects: 11, done.        
+remote: Counting objects:   9% (1/11)        
+remote: Counting objects:  18% (2/11)        
+remote: Counting objects:  27% (3/11)        
+remote: Counting objects:  36% (4/11)        
+remote: Counting objects:  45% (5/11)        
+remote: Counting objects:  54% (6/11)        
+remote: Counting objects:  63% (7/11)        
+remote: Counting objects:  72% (8/11)        
+remote: Counting objects:  81% (9/11)        
+remote: Counting objects:  90% (10/11)        
+remote: Counting objects: 100% (11/11)        
+remote: Counting objects: 100% (11/11), done.        
+remote: Compressing objects:  11% (1/9)        
+remote: Compressing objects:  22% (2/9)        
+remote: Compressing objects:  33% (3/9)        
+remote: Compressing objects:  44% (4/9)        
+remote: Compressing objects:  55% (5/9)        
+remote: Compressing objects:  66% (6/9)        
+remote: Compressing objects:  77% (7/9)        
+remote: Compressing objects:  88% (8/9)        
+remote: Compressing objects: 100% (9/9)        
+remote: Compressing objects: 100% (9/9), done.        
+Receiving objects:   9% (1/11)
+Receiving objects:  18% (2/11)
+Receiving objects:  27% (3/11)
+Receiving objects:  36% (4/11)
+Receiving objects:  45% (5/11)
+Receiving objects:  54% (6/11)
+Receiving objects:  63% (7/11)
+Receiving objects:  72% (8/11)
+Receiving objects:  81% (9/11)
+remote: Total 11 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)        
+Receiving objects:  90% (10/11)
+Receiving objects: 100% (11/11)
+Receiving objects: 100% (11/11), 693.87 KiB | 1.51 MiB/s, done.
+Resolving deltas:   0% (0/1)
+Resolving deltas: 100% (1/1)
+Resolving deltas: 100% (1/1), done.
+2025-11-16 08:40:32.113 [info] [main] Log level: Info
+2025-11-16 08:40:32.114 [info] [main] Validating found git in: "C:\Program Files\Git\cmd\git.exe"
+2025-11-16 08:40:32.114 [info] [main] Using git "2.51.2.windows.1" from "C:\Program Files\Git\cmd\git.exe"
+2025-11-16 08:40:32.114 [info] [Model][doInitialScan] Initial repository scan started
+2025-11-16 08:40:32.114 [info] > git rev-parse --show-toplevel [162ms]
+2025-11-16 08:40:32.555 [info] > git rev-parse --git-dir --git-common-dir --show-superproject-working-tree [429ms]
+2025-11-16 08:40:32.579 [info] [Model][openRepository] Opened repository (path): c:\Users\yvars\Downloads\snowflake
+2025-11-16 08:40:32.579 [info] [Model][openRepository] Opened repository (real path): c:\Users\yvars\Downloads\snowflake
+2025-11-16 08:40:32.579 [info] [Model][openRepository] Opened repository (kind): repository
+2025-11-16 08:40:32.592 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2025-11-16 08:40:32.879 [info] > git config --get commit.template [122ms]
+2025-11-16 08:40:32.970 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [77ms]
+2025-11-16 08:40:32.977 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open 'c:\Users\yvars\Downloads\snowflake\.git\refs\remotes\origin\main'
+2025-11-16 08:40:33.049 [info] > git rev-parse refs/remotes/origin/main [72ms]
+2025-11-16 08:40:33.137 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [74ms]
+2025-11-16 08:40:33.162 [info] > git status -z -uall [106ms]
+2025-11-16 08:40:33.286 [info] > git config --get commit.template [86ms]
+2025-11-16 08:40:33.286 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [96ms]
+2025-11-16 08:40:33.315 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [75ms]
+2025-11-16 08:40:33.321 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open 'c:\Users\yvars\Downloads\snowflake\.git\refs\remotes\origin\main'
+2025-11-16 08:40:33.358 [info] > git config --get --local branch.main.vscode-merge-base [66ms]
+2025-11-16 08:40:33.359 [warning] [Git][config] git config failed: Failed to execute git
+2025-11-16 08:40:33.401 [info] > git rev-parse refs/remotes/origin/main [81ms]
+2025-11-16 08:40:33.487 [info] > git reflog main --grep-reflog=branch: Created from *. [122ms]
+2025-11-16 08:40:33.498 [info] > git check-ignore -v -z --stdin [107ms]
+2025-11-16 08:40:33.500 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [89ms]
+2025-11-16 08:40:33.517 [info] > git status -z -uall [112ms]
+2025-11-16 08:40:33.573 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [79ms]
+2025-11-16 08:40:33.649 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/origin/main refs/remotes/origin/main [71ms]
+2025-11-16 08:40:33.728 [info] > git config --add --local branch.main.vscode-merge-base origin/main [73ms]
+2025-11-16 08:40:33.815 [info] > git config --get commit.template [81ms]
+2025-11-16 08:40:33.822 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [82ms]
+2025-11-16 08:40:33.827 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open 'c:\Users\yvars\Downloads\snowflake\.git\refs\remotes\origin\main'
+2025-11-16 08:40:33.938 [info] > git rev-parse refs/remotes/origin/main [111ms]
+2025-11-16 08:40:34.031 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [83ms]
+2025-11-16 08:40:34.037 [info] > git show --textconv :Output.xlsx [79ms]
+2025-11-16 08:40:34.040 [info] > git ls-files --stage -- Output.xlsx [75ms]
+2025-11-16 08:40:34.050 [info] > git status -z -uall [107ms]
+2025-11-16 08:40:34.120 [info] > git cat-file -s b7fccc2cd35565d9a014c28b985e2ca73e14125e [74ms]
+2025-11-16 08:40:34.141 [info] > git merge-base refs/heads/main refs/remotes/origin/main [75ms]
+2025-11-16 08:40:34.146 [info] > git merge-base refs/heads/main refs/remotes/origin/main [87ms]
+2025-11-16 08:40:34.218 [info] > git diff --name-status -z --diff-filter=ADMR a5d5c0f4ee9288855ae93bf21271a2e54bf32557...refs/remotes/origin/main [68ms]
+2025-11-16 08:40:34.219 [info] > git diff --name-status -z --diff-filter=ADMR a5d5c0f4ee9288855ae93bf21271a2e54bf32557...refs/remotes/origin/main [73ms]
+2025-11-16 08:40:37.918 [info] > git show --textconv :full_aqi_sample_11hr.json [95ms]
+2025-11-16 08:40:37.960 [info] > git ls-files --stage -- full_aqi_sample_11hr.json [90ms]
+2025-11-16 08:40:38.059 [info] > git cat-file -s a57b7ed6503981f239ef17afdbc311891ab551e1 [91ms]
+2025-11-16 08:40:46.962 [info] > git ls-files --stage -- air_quality_hourly.yml [112ms]
+2025-11-16 08:40:46.970 [info] > git show --textconv :air_quality_hourly.yml [129ms]
+2025-11-16 08:40:47.059 [info] > git cat-file -s dec8bb35921adc61703314d2423406cfa0523af0 [90ms]
+2025-11-16 08:40:54.152 [info] > git ls-files --stage -- full_aqi_sample_11hr.json [79ms]
+2025-11-16 08:40:54.159 [info] > git show --textconv :full_aqi_sample_11hr.json [91ms]
+2025-11-16 08:40:54.233 [info] > git cat-file -s a57b7ed6503981f239ef17afdbc311891ab551e1 [75ms]
+2025-11-16 08:41:03.672 [info] > git log --oneline --cherry main...main@{upstream} -- [82ms]
+2025-11-16 08:41:04.293 [info] > git pull --tags origin main [614ms]
+2025-11-16 08:41:04.293 [info] From https://github.com/varshithyechuri/snowflake
+ * branch            main       -> FETCH_HEAD
+2025-11-16 08:41:04.376 [info] > git config --get commit.template [76ms]
+2025-11-16 08:41:04.390 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [84ms]
+2025-11-16 08:41:04.394 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open 'c:\Users\yvars\Downloads\snowflake\.git\refs\remotes\origin\main'
+2025-11-16 08:41:04.460 [info] > git rev-parse refs/remotes/origin/main [65ms]
+2025-11-16 08:41:04.540 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [71ms]
+2025-11-16 08:41:04.567 [info] > git status -z -uall [103ms]
+2025-11-16 08:41:05.602 [info] > git ls-files --stage -- full_aqi_sample_11hr.json [66ms]
+2025-11-16 08:41:05.677 [info] > git cat-file -s a57b7ed6503981f239ef17afdbc311891ab551e1 [70ms]
+2025-11-16 08:41:05.760 [info] > git show --textconv :full_aqi_sample_11hr.json [76ms]
+2025-11-16 08:41:14.807 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname)%00%(parent)%00%(*parent)%00%(authorname)%00%(*authorname)%00%(committerdate:unix)%00%(*committerdate:unix)%00%(subject)%00%(*subject)%00%(upstream:track) [70ms]
+2025-11-16 08:41:18.598 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname)%00%(parent)%00%(*parent)%00%(authorname)%00%(*authorname)%00%(committerdate:unix)%00%(*committerdate:unix)%00%(subject)%00%(*subject)%00%(upstream:track) [113ms]
+2025-11-16 08:41:32.401 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) refs/heads [72ms]
+2025-11-16 08:41:37.660 [info] > git checkout -q -b vbvbv --no-track main [154ms]
+2025-11-16 08:41:37.733 [info] > git config --get commit.template [68ms]
+2025-11-16 08:41:37.756 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/vbvbv refs/remotes/vbvbv [68ms]
+2025-11-16 08:41:37.839 [info] > git status -z -uall [79ms]
+2025-11-16 08:41:37.843 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [77ms]
+2025-11-16 08:41:37.917 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/vbvbv refs/remotes/vbvbv [67ms]
+2025-11-16 08:41:37.983 [info] > git config --get --local branch.vbvbv.vscode-merge-base [59ms]
+2025-11-16 08:41:37.983 [warning] [Git][config] git config failed: Failed to execute git
+2025-11-16 08:41:38.049 [info] > git reflog vbvbv --grep-reflog=branch: Created from *. [60ms]
+2025-11-16 08:41:38.117 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/main refs/remotes/main [63ms]
+2025-11-16 08:41:38.185 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/remotes/origin/main [62ms]
+2025-11-16 08:41:38.259 [info] > git config --add --local branch.vbvbv.vscode-merge-base origin/main [67ms]
+2025-11-16 08:41:38.334 [info] > git config --get commit.template [69ms]
+2025-11-16 08:41:38.342 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/vbvbv refs/remotes/vbvbv [71ms]
+2025-11-16 08:41:38.412 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [62ms]
+2025-11-16 08:41:38.413 [info] > git status -z -uall [68ms]
+2025-11-16 08:41:39.524 [info] > git ls-files --stage -- full_aqi_sample_11hr.json [77ms]
+2025-11-16 08:41:39.621 [info] > git cat-file -s a57b7ed6503981f239ef17afdbc311891ab551e1 [92ms]
+2025-11-16 08:41:39.707 [info] > git show --textconv :full_aqi_sample_11hr.json [80ms]
+2025-11-16 08:41:42.355 [info] > git blame --root --incremental a5d5c0f4ee9288855ae93bf21271a2e54bf32557 -- full_aqi_sample_11hr.json [87ms]
+2025-11-16 08:41:47.738 [info] > git config --get commit.template [77ms]
+2025-11-16 08:41:47.747 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/vbvbv refs/remotes/vbvbv [79ms]
+2025-11-16 08:41:47.825 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [69ms]
+2025-11-16 08:41:47.826 [info] > git status -z -uall [75ms]
+2025-11-16 08:41:52.932 [info] > git config --get commit.template [88ms]
+2025-11-16 08:41:52.935 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/vbvbv refs/remotes/vbvbv [85ms]
+2025-11-16 08:41:53.080 [info] > git status -z -uall [140ms]
+2025-11-16 08:41:53.081 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [135ms]
+2025-11-16 08:41:55.501 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [100ms]
+2025-11-16 08:42:13.889 [info] > git config --get commit.template [148ms]
+2025-11-16 08:42:13.908 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/vbvbv refs/remotes/vbvbv [159ms]
+2025-11-16 08:42:13.994 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [75ms]
+2025-11-16 08:42:13.994 [info] > git status -z -uall [81ms]
+2025-11-16 08:42:22.389 [info] > git config --get commit.template [72ms]
+2025-11-16 08:42:22.393 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/vbvbv refs/remotes/vbvbv [70ms]
+2025-11-16 08:42:22.471 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [69ms]
+2025-11-16 08:42:22.472 [info] > git status -z -uall [74ms]
+2025-11-16 08:42:27.575 [info] > git config --get commit.template [91ms]
+2025-11-16 08:42:27.579 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/vbvbv refs/remotes/vbvbv [89ms]
+2025-11-16 08:42:27.667 [info] > git status -z -uall [83ms]
+2025-11-16 08:42:27.670 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [80ms]
+2025-11-16 08:42:32.768 [info] > git config --get commit.template [85ms]
+2025-11-16 08:42:32.772 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/vbvbv refs/remotes/vbvbv [83ms]
+2025-11-16 08:42:32.943 [info] > git status -z -uall [166ms]
+2025-11-16 08:42:32.943 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [162ms]
+2025-11-16 08:42:38.042 [info] > git config --get commit.template [74ms]
+2025-11-16 08:42:38.046 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/vbvbv refs/remotes/vbvbv [71ms]
+2025-11-16 08:42:38.124 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [70ms]
+2025-11-16 08:42:38.128 [info] > git status -z -uall [77ms]
+2025-11-16 08:42:43.267 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/vbvbv refs/remotes/vbvbv [110ms]
+2025-11-16 08:42:43.267 [info] > git config --get commit.template [116ms]
+2025-11-16 08:42:43.394 [info] > git status -z -uall [123ms]
+2025-11-16 08:42:43.395 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [117ms]
+2025-11-16 08:42:48.613 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/vbvbv refs/remotes/vbvbv [80ms]
+2025-11-16 08:42:48.613 [info] > git config --get commit.template [88ms]
+2025-11-16 08:42:48.712 [info] > git status -z -uall [95ms]
+2025-11-16 08:42:48.721 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [100ms]
+2025-11-16 08:42:53.827 [info] > git config --get commit.template [81ms]
+2025-11-16 08:42:53.837 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/vbvbv refs/remotes/vbvbv [84ms]
+2025-11-16 08:42:53.924 [info] > git status -z -uall [83ms]
+2025-11-16 08:42:53.925 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [78ms]
+2025-11-16 08:42:59.531 [info] > git config --get commit.template [77ms]
+2025-11-16 08:42:59.535 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/vbvbv refs/remotes/vbvbv [76ms]
+2025-11-16 08:42:59.613 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [69ms]
+2025-11-16 08:42:59.616 [info] > git status -z -uall [77ms]
+2025-11-16 08:43:04.720 [info] > git config --get commit.template [91ms]
+2025-11-16 08:43:04.723 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/vbvbv refs/remotes/vbvbv [87ms]
+2025-11-16 08:43:04.827 [info] > git status -z -uall [97ms]
+2025-11-16 08:43:04.830 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [94ms]
+2025-11-16 08:43:06.686 [info] > git log --format=%H%n%aN%n%aE%n%at%n%ct%n%P%n%D%n%B -z --shortstat --diff-merges=first-parent -n50 --skip=0 --topo-order --decorate=full --stdin [105ms]
+2025-11-16 08:43:23.976 [info] > git add -A -- . [151ms]
+2025-11-16 08:43:24.079 [info] > git -c user.useConfigOnly=true commit --quiet [94ms]
+2025-11-16 08:43:24.079 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-11-16 08:43:24.154 [info] > git config --get-all user.name [67ms]
+2025-11-16 08:43:24.230 [info] > git config --get commit.template [72ms]
+2025-11-16 08:43:24.237 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/vbvbv refs/remotes/vbvbv [72ms]
+2025-11-16 08:43:24.319 [info] > git status -z -uall [78ms]
+2025-11-16 08:43:24.321 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [76ms]
+2025-11-16 08:43:24.715 [info] > git show --textconv HEAD:full_aqi_sample_11hr.json [72ms]
+2025-11-16 08:43:24.720 [info] > git ls-tree -l HEAD -- full_aqi_sample_11hr.json [69ms]
+2025-11-16 08:43:29.859 [info] > git ls-tree -l HEAD -- full_aqi_sample_11hr.json [141ms]
+2025-11-16 08:43:29.862 [info] > git ls-files --stage -- full_aqi_sample_11hr.json [157ms]
+2025-11-16 08:43:29.960 [info] > git cat-file -s 3238f25f1c59881278f174ba199c449150e01ff5 [90ms]
+2025-11-16 08:43:30.036 [info] > git show --textconv HEAD:full_aqi_sample_11hr.json [93ms]
+2025-11-16 08:43:30.088 [info] > git show --textconv :full_aqi_sample_11hr.json [89ms]
+2025-11-16 08:44:38.395 [info] > git -c user.useConfigOnly=true commit --quiet [106ms]
+2025-11-16 08:44:38.395 [info] Author identity unknown
+
+*** Please tell me who you are.
+
+Run
+
+  git config --global user.email "you@example.com"
+  git config --global user.name "Your Name"
+
+to set your account's default identity.
+Omit --global to set the identity only in this repository.
+
+fatal: no email was given and auto-detection is disabled
+2025-11-16 08:44:38.472 [info] > git config --get-all user.name [72ms]
+2025-11-16 08:44:38.553 [info] > git config --get commit.template [75ms]
+2025-11-16 08:44:38.560 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) --ignore-case refs/heads/vbvbv refs/remotes/vbvbv [75ms]
+2025-11-16 08:44:38.641 [info] > git for-each-ref --sort -committerdate --format %(refname)%00%(objectname)%00%(*objectname) [70ms]
+2025-11-16 08:44:38.642 [info] > git status -z -uall [76ms]
+2025-11-16 08:44:45.700 [info] > git ls-files --stage -- full_aqi_sample_11hr.json [84ms]
+2025-11-16 08:44:45.708 [info] > git ls-tree -l HEAD -- full_aqi_sample_11hr.json [85ms]
+2025-11-16 08:44:45.785 [info] > git cat-file -s 3238f25f1c59881278f174ba199c449150e01ff5 [78ms]
+2025-11-16 08:44:45.802 [info] > git show --textconv HEAD:full_aqi_sample_11hr.json [85ms]
+2025-11-16 08:44:45.889 [info] > git show --textconv :full_aqi_sample_11hr.json [89ms]

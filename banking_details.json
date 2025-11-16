@@ -1,0 +1,308 @@
+{
+  "metadata": {
+    "export_date": "2025-11-16T18:00:00Z",
+    "export_timestamp": 1731781200,
+    "data_version": "1.0",
+    "source_system": "CoreBankingSystem",
+    "export_format": "json",
+    "record_count": 15,
+    "description": "Banking details export including accounts, transactions, and audit metadata"
+  },
+  "bank_info": {
+    "bank_code": "BANK0002",
+    "bank_name": "Global Financial Corporation",
+    "country": "USA",
+    "swift_code": "GFCBUS33",
+    "registration_number": "REG-2024-001"
+  },
+  "accounts": [
+    {
+      "account_id": "ACC-2024-001001",
+      "customer_id": "CUST-2024-5001",
+      "account_holder_name": "John Michael Smith",
+      "account_type": "Savings",
+      "account_status": "Active",
+      "currency": "USD",
+      "balance": 45670.50,
+      "opening_date": "2022-03-15",
+      "last_transaction_date": "2025-11-16",
+      "audit": {
+        "created_at": "2022-03-15T10:30:00Z",
+        "created_by": "admin_001",
+        "modified_at": "2025-11-16T08:45:22Z",
+        "modified_by": "system_batch",
+        "object_id": "7696c4d4-3d7a-5747-a447-56ec73034a59",
+        "record_hash": "a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6"
+      },
+      "dq": {
+        "passed": true,
+        "issues": []
+      }
+    },
+    {
+      "account_id": "ACC-2024-001002",
+      "customer_id": "CUST-2024-5002",
+      "account_holder_name": "Sarah Elizabeth Johnson",
+      "account_type": "Checking",
+      "account_status": "Active",
+      "currency": "USD",
+      "balance": 12340.25,
+      "opening_date": "2023-07-22",
+      "last_transaction_date": "2025-11-16",
+      "audit": {
+        "created_at": "2023-07-22T14:15:30Z",
+        "created_by": "admin_002",
+        "modified_at": "2025-11-16T09:22:15Z",
+        "modified_by": "system_batch",
+        "object_id": "931b8280-05c8-55b3-b729-7d46b1b92f9f",
+        "record_hash": "q7w8e9r0t1y2u3i4o5p6a7s8d9f0g1h2"
+      },
+      "dq": {
+        "passed": true,
+        "issues": []
+      }
+    },
+    {
+      "account_id": "ACC-2024-001003",
+      "customer_id": "CUST-2024-5003",
+      "account_holder_name": "Robert William Davis",
+      "account_type": "Money Market",
+      "account_status": "Inactive",
+      "currency": "USD",
+      "balance": 5432.10,
+      "opening_date": "2021-01-10",
+      "last_transaction_date": "2024-06-30",
+      "audit": {
+        "created_at": "2021-01-10T11:00:00Z",
+        "created_by": "admin_001",
+        "modified_at": "2025-11-15T16:30:45Z",
+        "modified_by": "compliance_review",
+        "object_id": "df7c46aa-f948-5d76-bca1-5353b7a56bcd",
+        "record_hash": "z1x2c3v4b5n6m7a8s9d0f1g2h3j4k5l6"
+      },
+      "dq": {
+        "passed": false,
+        "issues": [
+          "account_inactive_no_recent_transaction"
+        ]
+      }
+    },
+    {
+      "account_id": "ACC-2024-001004",
+      "customer_id": "CUST-2024-5004",
+      "account_holder_name": "Jennifer Lee Martinez",
+      "account_type": "Savings",
+      "account_status": "Active",
+      "currency": "EUR",
+      "balance": 78945.75,
+      "opening_date": "2020-05-18",
+      "last_transaction_date": "2025-11-16",
+      "audit": {
+        "created_at": "2020-05-18T09:45:12Z",
+        "created_by": "admin_003",
+        "modified_at": "2025-11-16T07:15:33Z",
+        "modified_by": "system_batch",
+        "object_id": "15d3c966-9ead-504f-99f1-b23b8f196569",
+        "record_hash": "p0o9i8u7y6t5r4e3w2q1a2s3d4f5g6h7"
+      },
+      "dq": {
+        "passed": true,
+        "issues": []
+      }
+    },
+    {
+      "account_id": "ACC-2024-001005",
+      "customer_id": "CUST-2024-5005",
+      "account_holder_name": "Michael Christopher Brown",
+      "account_type": "Checking",
+      "account_status": "Active",
+      "currency": "USD",
+      "balance": null,
+      "opening_date": "2024-09-12",
+      "last_transaction_date": "2025-11-14",
+      "audit": {
+        "created_at": "2024-09-12T13:20:00Z",
+        "created_by": "admin_004",
+        "modified_at": "2025-11-16T10:00:00Z",
+        "modified_by": "system_batch",
+        "object_id": "59b7b592-5ed0-5b99-afe2-007f94911086",
+        "record_hash": "m1n2b3v4c5x6z7a8s9d0f1g2h3j4k5l6"
+      },
+      "dq": {
+        "passed": false,
+        "issues": [
+          "balance_is_null"
+        ]
+      }
+    }
+  ],
+  "transactions": [
+    {
+      "transaction_id": "TXN-2025-000001",
+      "account_id": "ACC-2024-001001",
+      "transaction_type": "Debit",
+      "amount": 150.00,
+      "currency": "USD",
+      "transaction_date": "2025-11-16",
+      "transaction_time": "09:30:45",
+      "description": "Grocery Store Purchase",
+      "merchant_name": "Whole Foods Market",
+      "merchant_category": "Retail",
+      "status": "Completed",
+      "reference_number": "REF-2025-001",
+      "audit": {
+        "recorded_at": "2025-11-16T09:31:12Z",
+        "recorded_by": "pos_terminal_42",
+        "verification_status": "verified",
+        "object_id": "153b1438-ce39-5f40-bb7d-f31ac35505ad",
+        "record_hash": "t1r2e3w4q5a6s7d8f9g0h1j2k3l4m5n6"
+      },
+      "dq": {
+        "passed": true,
+        "issues": []
+      }
+    },
+    {
+      "transaction_id": "TXN-2025-000002",
+      "account_id": "ACC-2024-001001",
+      "transaction_type": "Credit",
+      "amount": 2500.00,
+      "currency": "USD",
+      "transaction_date": "2025-11-15",
+      "transaction_time": "08:00:00",
+      "description": "Salary Deposit",
+      "merchant_name": "Employer Corp",
+      "merchant_category": "Payroll",
+      "status": "Completed",
+      "reference_number": "REF-2025-002",
+      "audit": {
+        "recorded_at": "2025-11-15T08:15:33Z",
+        "recorded_by": "ach_processor_01",
+        "verification_status": "verified",
+        "object_id": "8bd205d4-b6e7-5400-9076-c5cb6cc60e4a",
+        "record_hash": "y7u8i9o0p1a2s3d4f5g6h7j8k9l0m1n2"
+      },
+      "dq": {
+        "passed": true,
+        "issues": []
+      }
+    },
+    {
+      "transaction_id": "TXN-2025-000003",
+      "account_id": "ACC-2024-001002",
+      "transaction_type": "Debit",
+      "amount": 45.50,
+      "currency": "USD",
+      "transaction_date": "2025-11-16",
+      "transaction_time": "14:22:18",
+      "description": "Online Purchase - Electronics",
+      "merchant_name": "Amazon Inc",
+      "merchant_category": "Online Retail",
+      "status": "Pending",
+      "reference_number": "REF-2025-003",
+      "audit": {
+        "recorded_at": "2025-11-16T14:23:05Z",
+        "recorded_by": "card_processor_15",
+        "verification_status": "pending_verification",
+        "object_id": "c4d5e6f7-8901-2345-6789-abcdef012345",
+        "record_hash": "b3c4d5e6f7g8h9i0j1k2l3m4n5o6p7q8"
+      },
+      "dq": {
+        "passed": false,
+        "issues": [
+          "transaction_status_pending"
+        ]
+      }
+    },
+    {
+      "transaction_id": "TXN-2025-000004",
+      "account_id": "ACC-2024-001003",
+      "transaction_type": "Debit",
+      "amount": 100.00,
+      "currency": "USD",
+      "transaction_date": "2024-06-30",
+      "transaction_time": "11:15:30",
+      "description": "ATM Withdrawal",
+      "merchant_name": "ATM Network - Branch 042",
+      "merchant_category": "Cash Withdrawal",
+      "status": "Completed",
+      "reference_number": "REF-2025-004",
+      "audit": {
+        "recorded_at": "2024-06-30T11:16:00Z",
+        "recorded_by": "atm_terminal_042",
+        "verification_status": "verified",
+        "object_id": "d6e7f8g9-h012-3456-7890-ijklmn012345",
+        "record_hash": "n9o0p1q2r3s4t5u6v7w8x9y0z1a2b3c4"
+      },
+      "dq": {
+        "passed": true,
+        "issues": []
+      }
+    },
+    {
+      "transaction_id": "TXN-2025-000005",
+      "account_id": "ACC-2024-001004",
+      "transaction_type": "Debit",
+      "amount": 250.00,
+      "currency": "EUR",
+      "transaction_date": "2025-11-16",
+      "transaction_time": "16:45:22",
+      "description": "Restaurant Dinner",
+      "merchant_name": "La Bella Italia",
+      "merchant_category": "Food & Dining",
+      "status": "Completed",
+      "reference_number": "REF-2025-005",
+      "audit": {
+        "recorded_at": "2025-11-16T16:46:10Z",
+        "recorded_by": "pos_terminal_87",
+        "verification_status": "verified",
+        "object_id": "e7f8g9h0-i123-4567-89ab-cdefgh123456",
+        "record_hash": "c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0"
+      },
+      "dq": {
+        "passed": true,
+        "issues": []
+      }
+    },
+    {
+      "transaction_id": "TXN-2025-000006",
+      "account_id": "ACC-2024-001005",
+      "transaction_type": "Debit",
+      "amount": "",
+      "currency": "USD",
+      "transaction_date": "2025-11-14",
+      "transaction_time": "10:30:00",
+      "description": "Utility Bill Payment",
+      "merchant_name": "City Electric Company",
+      "merchant_category": "Utilities",
+      "status": "Failed",
+      "reference_number": "REF-2025-006",
+      "audit": {
+        "recorded_at": "2025-11-14T10:31:15Z",
+        "recorded_by": "bill_processor_03",
+        "verification_status": "failed_verification",
+        "object_id": "f8g9h0i1-j234-5678-90ab-ijklmn234567",
+        "record_hash": "d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1"
+      },
+      "dq": {
+        "passed": false,
+        "issues": [
+          "amount_is_empty",
+          "transaction_status_failed"
+        ]
+      }
+    }
+  ],
+  "summary": {
+    "total_accounts": 5,
+    "active_accounts": 4,
+    "inactive_accounts": 1,
+    "total_transactions": 6,
+    "total_balance_usd": 141788.60,
+    "total_balance_eur": 78945.75,
+    "dq_accounts_passed": 4,
+    "dq_accounts_failed": 1,
+    "dq_transactions_passed": 4,
+    "dq_transactions_failed": 2
+  }
+}
