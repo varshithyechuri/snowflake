@@ -5,7 +5,7 @@
     "data_version": "1.0",
     "source_system": "CoreBankingSystem",
     "export_format": "json",
-    "record_count": 15,
+    "record_count": 14,
     "description": "Banking details export including accounts, transactions, and audit metadata"
   },
   "bank_info": {
